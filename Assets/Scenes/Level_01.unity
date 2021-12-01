@@ -2145,7 +2145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 778df55c48e19dc43857a89f776c5acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _coin: {fileID: 1610872627427063697, guid: eba952ac12bbc1f4ca5c6c9a657de41c, type: 3}
+  _coin: {fileID: 1610872627427063701, guid: eba952ac12bbc1f4ca5c6c9a657de41c, type: 3}
   _pointsParent: {fileID: 2100484059}
   _wallet: {fileID: 8213200566472095017}
 --- !u!1001 &2079000846

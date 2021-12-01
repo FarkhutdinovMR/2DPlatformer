@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CoinSpawner : MonoBehaviour
 {
-    [SerializeField] private GameObject _coin;
+    [SerializeField] private Coin _coin;
     [SerializeField] private Transform _pointsParent;
     [SerializeField] private Wallet _wallet;
 

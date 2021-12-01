@@ -58,10 +58,7 @@ public class Movement : MonoBehaviour
         RaycastHit2D[] raycastHit2D = new RaycastHit2D[1];
         int results = _rigidbody2D.Cast(Vector2.down, raycastHit2D, _groundCheckDistance);
 
-        if (results > 0)
-            return true;
-        else
-            return false;
+        return results > 0f;
     }
 
     private void Flip()
